@@ -37,7 +37,7 @@
         <mxCell id="eitrtOurXGXzFcpstlFO-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;应用层(手办，模拟法庭，看门狗，智能问答， 模型训练推理服务，语音交互等）&lt;/b&gt;" vertex="1">
           <mxGeometry height="50" width="430" x="170" y="30" as="geometry" />
         </mxCell>
-        <mxCell id="eitrtOurXGXzFcpstlFO-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: rgb(51, 102, 0);&quot;&gt;&lt;b&gt;IaaS云管平台( 中科云 或 自研）&lt;/b&gt;&lt;/font&gt;" vertex="1">
+        <mxCell id="eitrtOurXGXzFcpstlFO-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: rgb(51, 102, 0);&quot;&gt;&lt;b&gt;IaaS云管平台( 中科云CstCloud 或 自研）&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="230" x="280" y="570" as="geometry" />
         </mxCell>
         <mxCell id="eitrtOurXGXzFcpstlFO-25" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
@@ -53,7 +53,7 @@
           <mxGeometry height="240" width="20" x="100" y="160" as="geometry" />
         </mxCell>
         <mxCell id="eitrtOurXGXzFcpstlFO-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;SaaS&lt;/b&gt;" vertex="1">
-          <mxGeometry height="50" width="60" x="40" y="30" as="geometry" />
+          <mxGeometry height="50" width="60" x="30" y="30" as="geometry" />
         </mxCell>
         <mxCell id="eitrtOurXGXzFcpstlFO-32" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" value="" vertex="1">
           <mxGeometry height="50" width="20" x="100" y="30" as="geometry" />
