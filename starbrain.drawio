@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="qFNKBkjkQQHCXKzdjwq7">
-    <mxGraphModel dx="1570" dy="1845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1293" dy="1777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,7 +26,7 @@
           <mxGeometry height="60" width="250" x="170" y="440" as="geometry" />
         </mxCell>
         <mxCell id="eitrtOurXGXzFcpstlFO-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;&lt;br&gt;大模型(DeepSeek, QWen....)&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 102, 0);&quot;&gt;GPUStack MaaS(模型即服务）&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="430" x="170" y="350" as="geometry" />
+          <mxGeometry height="60" width="410" x="170" y="350" as="geometry" />
         </mxCell>
         <mxCell id="eitrtOurXGXzFcpstlFO-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;工作节点1&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="110" x="205" y="640" as="geometry" />
@@ -36,9 +36,6 @@
         </mxCell>
         <mxCell id="eitrtOurXGXzFcpstlFO-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;全栈观测&lt;/b&gt;&lt;font style=&quot;color: rgb(0, 102, 0);&quot;&gt;&lt;b&gt;Grafana, Prometheus, OTel and Opik等&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="880" width="90" x="660" y="-250" as="geometry" />
-        </mxCell>
-        <mxCell id="eitrtOurXGXzFcpstlFO-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="OpenClaw + ClawXRouter" vertex="1">
-          <mxGeometry height="60" width="160" x="170" y="240" as="geometry" />
         </mxCell>
         <mxCell id="eitrtOurXGXzFcpstlFO-15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;color: rgb(51, 102, 0);&quot;&gt;&lt;b&gt;IaaS云管平台( 中科云CstCloud 或 自研）&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="230" x="262.5" y="685" as="geometry" />
@@ -64,23 +61,14 @@
         <mxCell id="eitrtOurXGXzFcpstlFO-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;Kubernetes + 多租户 + RBAC&lt;/b&gt;" vertex="1">
           <mxGeometry height="30" width="230" x="270" y="530" as="geometry" />
         </mxCell>
-        <mxCell id="TbqThhjmfNJbkJ8g7TnG-26" edge="1" parent="1" source="TbqThhjmfNJbkJ8g7TnG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eitrtOurXGXzFcpstlFO-3" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="TbqThhjmfNJbkJ8g7TnG-27" edge="1" parent="1" source="TbqThhjmfNJbkJ8g7TnG-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1;" target="TbqThhjmfNJbkJ8g7TnG-13" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="TbqThhjmfNJbkJ8g7TnG-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;模型路由+脱密&lt;br&gt;&lt;font style=&quot;color: rgb(0, 102, 0);&quot;&gt;OpenClaw + ClawXRouter&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="60" width="160" x="180" y="250" as="geometry" />
+          <mxGeometry height="50" width="175" x="180" y="160" as="geometry" />
         </mxCell>
         <mxCell id="TbqThhjmfNJbkJ8g7TnG-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="...." vertex="1">
           <mxGeometry height="30" width="60" x="350" y="635" as="geometry" />
         </mxCell>
-        <mxCell id="TbqThhjmfNJbkJ8g7TnG-25" edge="1" parent="1" source="TbqThhjmfNJbkJ8g7TnG-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="eitrtOurXGXzFcpstlFO-3" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="TbqThhjmfNJbkJ8g7TnG-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;流量调度+负载均衡+花费跟踪&lt;br&gt;&lt;font style=&quot;color: rgb(0, 102, 0);&quot;&gt;LiteLLM&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="60" width="190" x="390" y="250" as="geometry" />
+          <mxGeometry height="60" width="190" x="401.75" y="250" as="geometry" />
         </mxCell>
         <mxCell id="TbqThhjmfNJbkJ8g7TnG-28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;异构CPU算力池&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;color: rgb(51, 102, 0);&quot;&gt;vCPU&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="450" y="570" as="geometry" />
@@ -167,7 +155,7 @@
           <mxGeometry height="30" width="85" x="325" y="-310" as="geometry" />
         </mxCell>
         <mxCell id="TbqThhjmfNJbkJ8g7TnG-217" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;b&gt;任务调度&lt;br&gt;&lt;font color=&quot;#006600&quot;&gt;Volcano&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="50" width="427" x="166.5" y="160" as="geometry" />
+          <mxGeometry height="50" width="193.5" x="400" y="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
