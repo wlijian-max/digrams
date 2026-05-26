@@ -1,9 +1,159 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="naM6LMjIkmyLp4DiTds6">
-    <mxGraphModel>
+    <mxGraphModel dx="1664" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-18" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="“硬件资源池”" vertex="1">
+          <mxGeometry height="128" width="679" x="641" y="1325" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-19" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="“设备管理代理层: HAMi”" vertex="1">
+          <mxGeometry height="330" width="601" x="20" y="1123" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-20" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="“基础设施调度层: Volcano”" vertex="1">
+          <mxGeometry height="329" width="509" x="841" y="946" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-21" parent="1" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="“Kubernetes API”" vertex="1">
+          <mxGeometry height="332" width="275" x="868" y="564" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-22" parent="Lx2il-Yl5Eaygae3f4NO-21" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="“Volcano Job CRD”" vertex="1">
+          <mxGeometry height="54" width="196" x="48" y="43" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-23" parent="Lx2il-Yl5Eaygae3f4NO-21" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="“PodGroup/Queue”" vertex="1">
+          <mxGeometry height="54" width="200" x="46" y="147" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-24" parent="Lx2il-Yl5Eaygae3f4NO-21" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="“Service/Ingress”" vertex="1">
+          <mxGeometry height="54" width="186" x="52" y="251" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-25" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="“应用编排层: OpenClaw”" vertex="1">
+          <mxGeometry height="256" width="650" x="703" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-26" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="AI应用" vertex="1">
+          <mxGeometry height="104" width="461" x="770" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-29" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="“OpenClaw Gateway&#xa;会话管理/指令解析”" vertex="1">
+          <mxGeometry height="78" width="207" x="869" y="259" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-30" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="“Skill 执行器&#xa;代码/文件/浏览器”" vertex="1">
+          <mxGeometry height="78" width="197" x="1119" y="387" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-31" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="“ClawXRouter&#xa;大模型路由器" vertex="1">
+          <mxGeometry height="78" width="192" x="877" y="387" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-32" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="“Volcano Scheduler&#xa;Gang/DRF/Binpack/拓扑感知”" vertex="1">
+          <mxGeometry height="102" width="260" x="876" y="971" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-33" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="“多租户队列&#xa;配额/公平/抢占”" vertex="1">
+          <mxGeometry height="78" width="181" x="1114" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-34" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="“volcano-vgpu-device-plugin&#xa;GPU 资源上报/分配”" vertex="1">
+          <mxGeometry height="102" width="260" x="57" y="1148" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-35" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="“HAMi-core&#xa;CUDA API 劫持/硬隔离”" vertex="1">
+          <mxGeometry height="78" width="227" x="63" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-36" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="“ascend-device-plugin&#xa;昇腾 NPU 适配”" vertex="1">
+          <mxGeometry height="78" width="220" x="367" y="1160" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-37" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="NVIDIA GPU&#xa;H100" vertex="1">
+          <mxGeometry height="78" width="181" x="676" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-38" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="华为昇腾 NPU" vertex="1">
+          <mxGeometry height="78" width="167" x="907" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-39" parent="1" style="whiteSpace=wrap;strokeWidth=2;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="“CPU/内存池”" vertex="1">
+          <mxGeometry height="54" width="162" x="1124" y="1362" as="geometry" />
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-40" edge="1" parent="1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.27;entryY=0;rounded=0;" target="Lx2il-Yl5Eaygae3f4NO-29" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="895" y="234" />
+            </Array>
+            <mxPoint x="895.5" y="159" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-41" edge="1" parent="1" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.92;entryY=0;rounded=0;" target="Lx2il-Yl5Eaygae3f4NO-29" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1116" y="234" />
+            </Array>
+            <mxPoint x="1116" y="159" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-42" edge="1" parent="1" source="Lx2il-Yl5Eaygae3f4NO-29" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.85;entryX=0.5;entryY=0;rounded=0;" target="Lx2il-Yl5Eaygae3f4NO-30" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1217" y="362" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-43" edge="1" parent="1" source="Lx2il-Yl5Eaygae3f4NO-29" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Lx2il-Yl5Eaygae3f4NO-31" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-44" edge="1" parent="1" source="Lx2il-Yl5Eaygae3f4NO-32" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" target="Lx2il-Yl5Eaygae3f4NO-33" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1205" y="1098" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-45" edge="1" parent="1" source="Lx2il-Yl5Eaygae3f4NO-32" style="curved=1;startArrow=none;endArrow=block;exitX=0.31;exitY=1;entryX=1;entryY=0.37;rounded=0;" target="Lx2il-Yl5Eaygae3f4NO-34" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="933" y="1098" />
+              <mxPoint x="933" y="1123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-46" edge="1" parent="1" source="Lx2il-Yl5Eaygae3f4NO-34" style="curved=1;startArrow=none;endArrow=block;exitX=0.47;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Lx2il-Yl5Eaygae3f4NO-35" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="177" y="1275" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-47" edge="1" parent="1" source="Lx2il-Yl5Eaygae3f4NO-34" style="curved=1;startArrow=none;endArrow=block;exitX=0.85;exitY=1;entryX=0;entryY=0.33;rounded=0;" target="Lx2il-Yl5Eaygae3f4NO-37" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="322" y="1275" />
+              <mxPoint x="322" y="1325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-48" edge="1" parent="1" source="Lx2il-Yl5Eaygae3f4NO-36" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0;entryY=0.37;rounded=0;" target="Lx2il-Yl5Eaygae3f4NO-38" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="477" y="1325" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-49" edge="1" parent="1" source="Lx2il-Yl5Eaygae3f4NO-33" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Lx2il-Yl5Eaygae3f4NO-39" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-50" edge="1" parent="1" source="Lx2il-Yl5Eaygae3f4NO-29" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0;exitY=0.98;entryX=0;entryY=0.1;rounded=0;" target="Lx2il-Yl5Eaygae3f4NO-21" value="“部署为 Pod”">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="794" y="362" />
+              <mxPoint x="794" y="527" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-51" edge="1" parent="1" source="Lx2il-Yl5Eaygae3f4NO-30" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.1;rounded=0;" target="Lx2il-Yl5Eaygae3f4NO-21" value="“触发训练任务”">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1217" y="527" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Lx2il-Yl5Eaygae3f4NO-52" edge="1" parent="1" source="Lx2il-Yl5Eaygae3f4NO-21" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" target="Lx2il-Yl5Eaygae3f4NO-32" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
